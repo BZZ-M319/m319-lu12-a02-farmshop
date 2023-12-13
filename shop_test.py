@@ -15,7 +15,7 @@ def test_list(monkeypatch, capsys):
     """
     tests the list of articles
     """
-    inputs = iter(['Ei', 0.75, 30, 'Käse', 45.95, 7, 'Ei', -4, 'Käse', -1, 'Exit'])
+    inputs = iter(['Ei', '0.75', '30', 'Käse', '45.95', '7', 'Ei', '-4', 'Käse', '-1', 'Exit'])
     monkeypatch.setattr('builtins.input', lambda _: next(inputs))
     article_list = shop.main().__repr__()
     assert article_list == '[Article(name=\'Ei\', price=0.75, stock=26.0), Article(name=\'Käse\', price=45.95, stock=6.0)]'
@@ -25,7 +25,7 @@ def test_output(monkeypatch, capsys):
     """
     tests the output
     """
-    inputs = iter(['Ei', 0.75, 30, 'Käse', 45.95, 7, 'Ei', -4, 'Käse', -1, 'Exit'])
+    inputs = iter(['Ei', '0.75', '30', 'Käse', '45.95', '7', 'Ei', '-4', 'Käse', '-1', 'Exit'])
     monkeypatch.setattr('builtins.input', lambda _: next(inputs))
     shop.main()
     captured = capsys.readouterr()

@@ -1,24 +1,34 @@
 {
   "tests": [
     {
-      "name": "Input/Output",
-      "setup": "",
-      "run": "python3 main.py",
-      "input": "",
-      "output": "Total: 78.75\n",
-      "comparison": "included",
-      "timeout": 1,
-      "points": 1
-    },
-    {
-      "name": "Pytest",
+      "name": "test_class",
       "setup": "sudo -H pip3 install -r requirements.txt",
-      "run": "pytest -v  -k \"test\"",
+      "run": "pytest -v  -k \"test_class\"",
       "input": "",
       "output": "",
       "comparison": "included",
       "timeout": 10,
-      "points": 2
+      "points": 1
+    },
+    {
+      "name": "test_list",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "pytest -v  -k \"test_list\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test_output",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "pytest -v  -k \"test_output\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
     }
   ]
 }
