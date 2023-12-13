@@ -1,14 +1,8 @@
-from dataclasses import dataclass
-
-
-@dataclass
 class Article:
     """
-    an article in the farmshop
+    TODO short description
     """
-    name: str
-    price: float
-    stock: int
+    pass
 
 
 if __name__ == '__main__':
