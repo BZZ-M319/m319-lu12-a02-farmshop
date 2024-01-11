@@ -14,7 +14,7 @@ def main():
         else:
             print('Bestand     : ' + str(article.stock))
 
-        amount = input_float('Menge       > ')
+        amount = input_int('Menge       > ')
         article.stock = (article.stock + amount)
         article_name = input('Artikelname > ')
 
