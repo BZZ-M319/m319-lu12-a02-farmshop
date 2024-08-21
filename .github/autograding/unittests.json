@@ -1,0 +1,20 @@
+[
+  {
+    "name": "test_class",
+    "function": "test_class",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_list",
+    "function": "test_list",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_output",
+    "function": "test_output",
+    "timeout": 10,
+    "points": 1
+  }
+]

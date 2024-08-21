@@ -1,0 +1,8 @@
+{
+  "files": [
+    "shop.py",
+    "article.py"
+  ],
+  "ignore": [],
+  "max": 5
+}
